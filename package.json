@@ -1,0 +1,14 @@
+{
+  "name": "codewars_tests",
+  "version": "1.0.0",
+  "description": "Practicing JS using Codewars",
+  "main": "null",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Marcus Crane <marcus@thingsima.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
