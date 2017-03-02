@@ -1,5 +1,5 @@
 const assert = require('assert')
-const printerError = require('../src/02_printer_errors.js')
+const printerError = require('../src/02_printer_errors')
 
 describe('printerError', () => {
     it('returns expected error rate where a - m is valid and n - z is an error', () => {
