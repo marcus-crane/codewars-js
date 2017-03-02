@@ -1,8 +1,8 @@
 function printerError(s) {
     let error = 0
 
-    for (let i = 0; i < s.length; i++) {
-        if (s[i] >= 'n' && s[i] <= 'z') {
+    for (let i of s) {
+        if (i >= 'n' && i <= 'z') {
             error++
         }
     }
