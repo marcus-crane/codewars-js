@@ -1,5 +1,5 @@
-const isSquare = require('../src/03_squares.js')
 const assert = require('assert')
+const isSquare = require('../src/03_squares.js')
 
 describe('isSquare', () => {
     it('returns false for negative numbers', () => {

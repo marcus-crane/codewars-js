@@ -1,5 +1,5 @@
-const isIsogram = require('../src/01_isograms.js')
 const assert = require('assert')
+const isIsogram = require('../src/01_isograms.js')
 
 describe('isIsogram', () => {
     it('returns true when input does not contain the same letter twice', () => {
