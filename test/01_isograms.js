@@ -9,10 +9,6 @@ describe('isIsogram', () => {
 
     it('returns false when the same character appears in a word twice', () => {
         assert.equal(isIsogram('aba'), false)
-        assert.equal(isIsogram(''))
-    })
-
-    it('returns false even if same characters appear but in different cases', () => {
         assert.equal(isIsogram('moOse'), false)
     })
 
